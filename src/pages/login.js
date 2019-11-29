@@ -24,8 +24,6 @@ export default class Login extends Component {
           } else {
             console.log("invalid password");
             this.setState({ hide: false });
-            // document.getElementById("msg").display = "block";
-            // document.getElementById("msg").innerHTML = "Invalid Password";
           }
         } else {
           console.log("No user found");
