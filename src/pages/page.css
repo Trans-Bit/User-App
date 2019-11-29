@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+  margin: 150px 0;
+}
+.heading {
+  color: #5d4eaa;
+  font-size: 35px;
+}
+input,
+button {
+  margin: 10px;
+}
+input {
+  height: 30px;
+  width: 25%;
+  padding: 10px;
+  border: 0.05px solid #5d4eaa;
+  transition: all 0.5s ease-in-out;
+}
+button {
+  border: 0;
+  box-shadow: none;
+  height: 40px;
+  width: 10%;
+  color: white;
+  background-color: #5d4eaa;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #6f64a3;
+}
+input:focus {
+  width: 40%;
+  border: 0.5px solid #5d4eaa;
+}
+.text {
+  margin: 10px;
+  font-size: 15px;
+}
