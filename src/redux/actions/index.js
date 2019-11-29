@@ -1,7 +1,9 @@
 import { ADD_USER } from "../constants";
-export function addUser(payload) {
-  return {
+
+export const addUser = data => dispatch => {
+  console.log(data);
+  dispatch({
     type: ADD_USER,
-    payload
-  };
-}
+    payload: data
+  });
+};
