@@ -9,7 +9,8 @@ export default class Login extends Component {
     super(props);
     this.state = {
       email: this.email,
-      password: this.password
+      password: this.password,
+      hide: true
     };
   }
   handleSubmit(e) {
@@ -22,16 +23,22 @@ export default class Login extends Component {
             console.log("login successful");
           } else {
             console.log("invalid password");
+            this.setState({ hide: false });
+            // document.getElementById("msg").display = "block";
+            // document.getElementById("msg").innerHTML = "Invalid Password";
           }
         } else {
           console.log("No user found");
+          this.setState({ hide: false });
         }
       });
   }
   render() {
     return (
       <div>
-        <div className="msg">Message displayed here</div>
+        <span className={this.state.hide ? "msg" : "msg1"}>
+          Invalid credentials
+        </span>
         <div className="container">
           <h2 className="heading">LOGIN</h2>
           <input

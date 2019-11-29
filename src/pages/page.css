@@ -2,6 +2,23 @@
   text-align: center;
   margin: 150px 0;
 }
+.msg {
+  height: 20px;
+  background-color: red;
+  padding: 15px;
+  color: white;
+  position: relative;
+  top: 40px;
+  display: none;
+}
+.msg1 {
+  height: 20px;
+  background-color: red;
+  padding: 15px;
+  color: white;
+  position: relative;
+  top: 40px;
+}
 .heading {
   color: #5d4eaa;
   font-size: 35px;

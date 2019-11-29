@@ -37,58 +37,62 @@ export default class Signup extends Component {
   }
   render() {
     return (
-      <div className="container">
-        <h2 className="heading">SIGNUP</h2>
-        <input
-          type="text"
-          placeholder="Name"
-          onChange={e => this.setState({ name: e.target.value })}
-        />
-        <br />
-        <input
-          type="text"
-          placeholder="email"
-          onChange={e => this.setState({ email: e.target.value })}
-        />
-        <br />
-        <input
-          type="password"
-          placeholder="password"
-          onChange={e => this.setState({ password: e.target.value })}
-        />
-        <br />
-        <input
-          type="number"
-          placeholder="age"
-          onChange={e => this.setState({ age: e.target.value })}
-        />
-        <br />
-        <input
-          type="text"
-          placeholder="gender (M/F)"
-          onChange={e => this.setState({ gender: e.target.value })}
-        />
-        <br />
-        <input
-          type="text"
-          placeholder="Mobile No"
-          onChange={e => this.setState({ mobile: e.target.value })}
-        />
-        <br />
-        <input
-          type="text"
-          placeholder="UPI"
-          onChange={e => this.setState({ UPI: e.target.value })}
-        />
-        <br />
-        <button onClick={e => this.handleSubmit(e)}>LOGIN</button>
-        <div className="text">
-          Already a member?
-          <Link to="/login">
-            <span classname="details" style={{ color: "#6f64a3" }}>
-              Log in
-            </span>
-          </Link>
+      <div>
+        <span className="msg">Messageeee displayed here</span>
+
+        <div className="container">
+          <h2 className="heading">SIGNUP</h2>
+          <input
+            type="text"
+            placeholder="Name"
+            onChange={e => this.setState({ name: e.target.value })}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="email"
+            onChange={e => this.setState({ email: e.target.value })}
+          />
+          <br />
+          <input
+            type="password"
+            placeholder="password"
+            onChange={e => this.setState({ password: e.target.value })}
+          />
+          <br />
+          <input
+            type="number"
+            placeholder="age"
+            onChange={e => this.setState({ age: e.target.value })}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="gender (M/F)"
+            onChange={e => this.setState({ gender: e.target.value })}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="Mobile No"
+            onChange={e => this.setState({ mobile: e.target.value })}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="UPI"
+            onChange={e => this.setState({ UPI: e.target.value })}
+          />
+          <br />
+          <button onClick={e => this.handleSubmit(e)}>LOGIN</button>
+          <div className="text">
+            Already a member?
+            <Link to="/login">
+              <span classname="details" style={{ color: "#6f64a3" }}>
+                Log in
+              </span>
+            </Link>
+          </div>
         </div>
       </div>
     );
