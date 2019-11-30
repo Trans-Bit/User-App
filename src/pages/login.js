@@ -61,7 +61,7 @@ export class Login extends Component {
           <div className="text">
             Not a member?{" "}
             <Link to="/signup">
-              <span classname="details" style={{ color: "#6f64a3" }}>
+              <span className="details" style={{ color: "#6f64a3" }}>
                 Sign up
               </span>
             </Link>
