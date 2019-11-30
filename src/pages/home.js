@@ -28,20 +28,16 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <span className="amb">
-          {/* {this.state.msg} */}
-          {/* <br /> */}
-          <button onClick={e => this.handleSubmit(e)} className="sos">
-            {this.state.loading ? (
-              <div>
-                <LoopIcon />
-                <div>{this.state.msg}</div>
-              </div>
-            ) : (
-              <span>SOS</span>
-            )}
-          </button>
-        </span>
+        <button onClick={e => this.handleSubmit(e)} className="sos">
+          {this.state.loading ? (
+            <div>
+              <LoopIcon />
+              <div>{this.state.msg}</div>
+            </div>
+          ) : (
+            <span>SOS</span>
+          )}
+        </button>
       </div>
     );
   }
