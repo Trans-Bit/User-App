@@ -54,3 +54,21 @@ input:focus {
   margin: 10px;
   font-size: 15px;
 }
+.sos {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  font-size: 15px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10px;
+  /* float: right; */
+}
+.sos:hover,
+sos:active {
+  background-color: red;
+}
+.amb {
+  float: right;
+}

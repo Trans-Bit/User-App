@@ -3,11 +3,25 @@
   height: 60px;
   background-color: #5d4eaa;
   /* padding: 20px 0px 0px 20px; */
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 20px;
   font-weight: 400;
 }
 .nav span {
   padding: 0px 20px;
   color: white;
+}
+.head {
+  position: relative;
+  left: 30px;
+  top: -20px;
+  color: white;
+  font-size: 30px;
+}
+
+.image {
+  height: 90%;
+  position: relative;
+  left: 20px;
+  top: -5px;
 }
