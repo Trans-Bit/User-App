@@ -1,23 +1,26 @@
 import React, { Component } from "react";
-// import openSocket from "socket.io-client";
+import io from "socket.io-client";
 import { subscribeToTimer } from "./sock";
 
 export default class Home extends Component {
   constructor(props) {
     super(props);
-    this.state = { timestamp: "No val" };
+    this.state = { msg: "No val" };
   }
   handleSubmit(e) {
-    subscribeToTimer((err, timestamp) =>
+    e.preventDefault();
+    // this.socket.emit("on", "Calling for ambulance");
+    // subscribeToTimer();
+    subscribeToTimer((err, msg) =>
       this.setState({
-        timestamp
+        msg
       })
     );
   }
   render() {
     return (
       <div>
-        {this.state.timestamp}
+        {this.state.msg}
         <button onClick={e => this.handleSubmit(e)}>CLICK</button>
       </div>
     );
