@@ -63,12 +63,9 @@ input:focus {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 10px;
-  /* float: right; */
+  float: right;
 }
 .sos:hover,
 sos:active {
   background-color: red;
-}
-.amb {
-  float: right;
 }

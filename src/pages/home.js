@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import io from "socket.io-client";
 import { subscribeToTimer } from "./sock";
 import LoopIcon from "@material-ui/icons/Loop";
+import Vogo from "../components/vogo";
 
 export default class Home extends Component {
   constructor(props) {
@@ -38,6 +39,7 @@ export default class Home extends Component {
             <span>SOS</span>
           )}
         </button>
+        <Vogo />
       </div>
     );
   }
