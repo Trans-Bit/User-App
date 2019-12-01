@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Fortis Hospital",
+    "latitude": "12.895178",
+    "longitude": "77.598652",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOvTJfGD1_b0JvG9wgwyLaHIFYFkwGdsJ_5NZvb=w408-h514-k-no"
+  },
+  {
+    "name": "Manipal Hospital HAL",
+    "latitude": "12.958621",
+    "longitude": "77.648815",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPvJQwkKd6XvRU1pp98S2oNvpAYXByiChvPQZPI=w408-h240-k-no-pi0-ya40-ro0-fo100"
+  },
+  {
+    "name": "Columbia Asia Yeshwanthpur",
+    "latitude": "13.014562",
+    "longitude": "77.556586",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOpbSgfLGQSwDx5WMiUCkwohhLf_L3a54EQvYmi=w408-h271-k-no"
+  },
+  {
+    "name": "Aster CMI",
+    "latitude": "13.054888",
+    "longitude": "77.591921",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPAijQ25ruJgMpvLXu0xSX05yDUVh7IWCun_1lH=w408-h306-k-no"
+  },
+  {
+    "name": "Apollo Hospital",
+    "latitude": "12.936783",
+    "longitude": "77.584376",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMktbS4Na3EbZMQLIQowOIK5-Rtq2cKqeq6Yjkf=w408-h272-k-no"
+  },
+  {
+    "name": "Fortis Hospital",
+    "latitude": "12.988625",
+    "longitude": "77.594463",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNY06bntwOYqeQMpCJZoz0zFht5DCdEi-Qwkw86=w408-h270-k-no"
+  },
+  {
+    "name": "Columbia Asia Whitefield",
+    "latitude": "12.958560",
+    "longitude": "77.745395",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOoer5rZWprvKUTCSXgOyZ0ZNdmgHiVo07pF34J=w426-h240-k-no"
+  },
+  {
+    "name": "Hosmat Hospital",
+    "latitude": "12.969437",
+    "longitude": "77.613337",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPMaNGqB8P0uBJNpiOB-ZguZhoiAWfwVES7qo9g=w625-h240-k-no"
+  }
+]
